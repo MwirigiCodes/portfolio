@@ -115,9 +115,7 @@ const Hero = () => {
           className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed mb-12"
         >
           I build reliable, scalable, and secure backend systems that power
-          modern web applications. I enjoy working with APIs, databases,
-          authentication, and infrastructure to turn ideas into production-ready
-          software.
+          modern web applications.
         </motion.p>
         {/* CTA buttons */}
         <motion.div
