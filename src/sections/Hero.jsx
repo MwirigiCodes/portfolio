@@ -93,7 +93,7 @@ const Hero = () => {
         </motion.div>
         <motion.h1
           variants={itemVariants}
-          className="text-3xl md:text-5xl font-semibold text-white mb-6"
+          className="text-3xl md:text-5xl font-semibold text-white md:mb-6"
         >
           Hi, I'm{' '}
           <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-cyan-400">
@@ -101,8 +101,8 @@ const Hero = () => {
           </span>
         </motion.h1>
         {/* Animated text */}
-        <motion.div variants={itemVariants} className="mb-6 h-16">
-          <h2 className="text-3xl text-gray-200 font-light">
+        <motion.div variants={itemVariants} className="mb-3 md:mb-6">
+          <h2 className="text-xl md:text-3xl text-gray-200 font-light">
             I am{' '}
             <span className="text-cyan-300 border-r-2 border-cyan-300">
               {displayText}
@@ -112,7 +112,7 @@ const Hero = () => {
         {/* Description */}
         <motion.p
           variants={itemVariants}
-          className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed mb-12"
+          className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed mb-6 md:mb-12"
         >
           I build reliable, scalable, and secure backend systems that power
           modern web applications.
