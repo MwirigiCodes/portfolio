@@ -23,9 +23,8 @@ const Navbar = () => {
       sections.forEach((section) => {
         if (
           section &&
-          scrollPos >=
-            section.offsetTop <
-            section.offsetTop + section.offsetHeight
+          scrollPos >= section.offsetTop &&
+          scrollPos < section.offsetTop + section.offsetHeight
         ) {
           setActiveSection(section.id);
         }
