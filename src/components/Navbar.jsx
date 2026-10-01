@@ -86,17 +86,7 @@ const Navbar = () => {
                 >
                   <link.icon className="size-5 lg:size-6 relative z-10" />
                   {activeSection === link.id && (
-                    <motion.div
-                      animate={{
-                        boxShadow: [
-                          '0 0 10px rgba(59, 130, 246, 0.8)',
-                          '0 0 20px rgba(59, 130, 246, 0.4)',
-                          '0 0 10px rgba(59, 130, 246, 0.8)',
-                        ],
-                      }}
-                      transition={{ duration: 0.2, repeat: Infinity }}
-                      className="absolute inset-0 rounded-full bg-blue-500/30"
-                    ></motion.div>
+                    <motion.div className="absolute inset-0 rounded-full bg-blue-500/30"></motion.div>
                   )}
                   <div className="absolute left-full ml-3 px-2 py-1 lg:px-3 lg:py-2 bg-gray-900/95 text-white text-xs lg:text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap backdrop-blur-sm border border-gray-700 shadow-lg">
                     {link.label}
