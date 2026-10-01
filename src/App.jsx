@@ -1,4 +1,5 @@
 import Hero from './sections/Hero';
+import Skills from './sections/Skills';
 import Navbar from './components/Navbar';
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Hero />
       <Navbar />
+      <Skills />
     </div>
   );
 };
