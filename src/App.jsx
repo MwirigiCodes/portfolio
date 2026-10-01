@@ -1,6 +1,7 @@
+import Navbar from './components/Navbar';
 import Hero from './sections/Hero';
 import Skills from './sections/Skills';
-import Navbar from './components/Navbar';
+import Education from './sections/Education';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Hero />
       <Navbar />
       <Skills />
+      <Education />
     </div>
   );
 };
